@@ -157,7 +157,7 @@ Customer places order
 ---
 
 ## 👨‍💻 Author
-Naveen Kumar .S
-MAHESHWARAN J
-DHANUSH P
-PRAVEENA S
+-NAVEEN KUMAR S
+-MAHESHWARAN J
+-DHANUSH P
+-PRAVEENA S
