@@ -1,7 +1,7 @@
-# 🚗 WhatsNext Vision Motors  
-### Salesforce-Based Automotive Order Management System
+  WhatsNext Vision Motors  
+Salesforce-Based Automotive Order Management System
 
-## 📌 Project Overview
+  Project Overview
 WhatsNext Vision Motors is a Salesforce-driven Order Management System (OMS) designed to:
 
 - Automate vehicle order processing
@@ -11,9 +11,9 @@ WhatsNext Vision Motors is a Salesforce-driven Order Management System (OMS) des
 - Ensure data security
 - Provide reports & dashboards
 
----
 
-## 🎯 Objectives
+
+ Objectives
 - Efficient order management
 - Real-time stock tracking
 - Automated workflows
@@ -22,9 +22,9 @@ WhatsNext Vision Motors is a Salesforce-driven Order Management System (OMS) des
 
 ---
 
-## 🧱 Data Model
+ Data Model
 
-### Core Objects
+ Core Objects
 - Customer (Account / Contact)
 - Vehicle
 - Order
@@ -32,104 +32,103 @@ WhatsNext Vision Motors is a Salesforce-driven Order Management System (OMS) des
 - Inventory
 - Dealer
 
-### Relationships
+Relationships
 - One Customer → Many Orders  
 - One Order → Many Order Line Items  
 - One Vehicle → Many Inventory Records  
 - One Dealer → Many Orders  
 
----
 
-## 📊 Fields
 
-### Order Object
+ Fields
+
+Order Object
 - Order ID  
 - Order Status (New, Pending, Confirmed, Delivered)  
 - Order Date  
 - Total Amount (Formula)
 
-### Order Line Item
+Order Line Item
 - Vehicle  
 - Quantity  
 - Price  
 
-### Inventory
+Inventory
 - Stock Available  
 - Reorder Level  
 - Last Updated  
 
----
 
-## 🧮 Formula Fields
+
+Formula Fields
 - **Total Amount** = Quantity × Price  
 - **Stock Status** =
 
-- 
----
+  
 
-## ✅ Validation Rules
+ Validation Rules
 - Quantity must be greater than zero  
 - Prevent order when stock is 0  
 
----
 
-## ⚙️ Automation (Flows)
-### When Order is Created
+
+ Automation (Flows)
+ When Order is Created
 - Assign nearest dealer  
 - Send confirmation email  
 - Create processing task  
 
-### When Order is Confirmed
+ When Order is Confirmed
 - Reduce stock automatically  
 
-### When Stock is Low
+When Stock is Low
 - Send alert notification  
 
----
 
-## 💻 Apex Implementation
 
-### Trigger Logic
+ Apex Implementation
+
+Trigger Logic
 - Validate stock availability  
 - Auto-update order status  
 
-### Apex Class
+ Apex Class
 - Dealer assignment  
 - Inventory updates  
 - Notifications  
 
----
 
-## 🔐 Security
+
+ Security
 - Roles: Admin, Sales User, Dealer Manager  
 - Field-level security for pricing  
 - Sharing rules for dealer-specific access  
 
----
 
-## 👥 User Management
+
+ User Management
 - Create users  
 - Assign roles & profiles  
 
----
 
-## 📈 Reports & Dashboards
 
-### Reports
+ Reports & Dashboards
+
+ Reports
 - Orders by Status  
 - Vehicle Stock Levels  
 - Pending Orders  
 - Low Stock Vehicles  
 
-### Dashboard
+ Dashboard
 - Total Orders  
 - Confirmed Orders  
 - Pending Orders  
 - Stock Alerts  
 
----
 
-## 🔄 Use Case Flow
+
+Use Case Flow
 
 Customer places order  
 → Order created in Salesforce  
@@ -142,9 +141,8 @@ Customer places order
 → Customer tracks order  
 → Dashboard updated  
 
----
 
-## 🔗 Deliverables
+ Deliverables
 - Data Model Diagram  
 - Object & Field List  
 - Flow Automation  
@@ -154,10 +152,10 @@ Customer places order
 - Demo Link  
 - GitHub Repository  
 
----
 
-## 👨‍💻 Author
--NAVEEN KUMAR S
--MAHESHWARAN J
--DHANUSH P
--PRAVEENA S
+
+ Author
+NAVEEN KUMAR S
+MAHESHWARAN J
+DHANUSH P
+PRAVEENA S
